@@ -1,0 +1,104 @@
+[16-Jul-2019 10:26:56 Asia/Kolkata] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/techmhco/public_html/mpdf_6/vendor/mpdf/mpdf/mpdf.php on line 18030
+[16-Jul-2019 10:27:32 Asia/Kolkata] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/techmhco/public_html/mpdf_6/vendor/mpdf/mpdf/mpdf.php on line 18030
+[16-Jul-2019 10:27:59 Asia/Kolkata] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/techmhco/public_html/mpdf_6/vendor/mpdf/mpdf/mpdf.php on line 18030
+[16-Jul-2019 10:28:21 Asia/Kolkata] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/techmhco/public_html/mpdf_6/vendor/mpdf/mpdf/mpdf.php on line 4344
+[16-Jul-2019 10:28:40 Asia/Kolkata] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/techmhco/public_html/mpdf_6/vendor/mpdf/mpdf/mpdf.php on line 18030
+[16-Jul-2019 11:05:20 Asia/Kolkata] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/techmhco/public_html/mpdf_6/vendor/mpdf/mpdf/mpdf.php on line 18030
+[16-Jul-2019 12:25:24 Asia/Kolkata] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/techmhco/public_html/mpdf_6/vendor/mpdf/mpdf/mpdf.php on line 4161
+[16-Jul-2019 12:27:25 Asia/Kolkata] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/techmhco/public_html/mpdf_6/vendor/mpdf/mpdf/mpdf.php on line 18030
+[16-Jul-2019 12:27:58 Asia/Kolkata] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/techmhco/public_html/mpdf_6/vendor/mpdf/mpdf/mpdf.php on line 18030
+[16-Jul-2019 12:29:05 Asia/Kolkata] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/techmhco/public_html/mpdf_6/vendor/mpdf/mpdf/mpdf.php on line 18030
+[16-Jul-2019 12:33:57 Asia/Kolkata] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/techmhco/public_html/mpdf_6/vendor/mpdf/mpdf/mpdf.php on line 28876
+[16-Jul-2019 12:34:08 Asia/Kolkata] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/techmhco/public_html/mpdf_6/vendor/mpdf/mpdf/mpdf.php on line 18030
+[16-Jul-2019 12:35:06 Asia/Kolkata] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/techmhco/public_html/mpdf_6/vendor/mpdf/mpdf/mpdf.php on line 6355
+[16-Jul-2019 12:36:47 Asia/Kolkata] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/techmhco/public_html/mpdf_6/vendor/mpdf/mpdf/mpdf.php on line 18029
+[18-Jul-2019 15:15:21 Asia/Kolkata] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/techmhco/public_html/mpdf_6/mpdf_index.php:202) in /home/techmhco/public_html/mpdf_6/vendor/mpdf/mpdf/mpdf.php on line 9420
+[18-Jul-2019 15:15:21 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'MpdfException' with message 'Some data has already been output to browser, can't send PDF file' in /home/techmhco/public_html/mpdf_6/vendor/mpdf/mpdf/mpdf.php:9422
+Stack trace:
+#0 /home/techmhco/public_html/mpdf_6/mpdf_index.php(207): mPDF->Output('mpdf.pdf', 'D')
+#1 {main}
+  thrown in /home/techmhco/public_html/mpdf_6/vendor/mpdf/mpdf/mpdf.php on line 9422
+[18-Jul-2019 15:18:10 Asia/Kolkata] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/techmhco/public_html/mpdf_6/mpdf_index.php:202) in /home/techmhco/public_html/mpdf_6/vendor/mpdf/mpdf/mpdf.php on line 9420
+[18-Jul-2019 15:18:10 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'MpdfException' with message 'Some data has already been output to browser, can't send PDF file' in /home/techmhco/public_html/mpdf_6/vendor/mpdf/mpdf/mpdf.php:9422
+Stack trace:
+#0 /home/techmhco/public_html/mpdf_6/mpdf_index.php(207): mPDF->Output('mpdf.pdf', 'D')
+#1 {main}
+  thrown in /home/techmhco/public_html/mpdf_6/vendor/mpdf/mpdf/mpdf.php on line 9422
+[18-Jul-2019 15:33:23 Asia/Kolkata] PHP Parse error:  syntax error, unexpected 'margin' (T_STRING) in /home/techmhco/public_html/mpdf_6/mpdf_index.php on line 78
+[18-Jul-2019 15:33:27 Asia/Kolkata] PHP Parse error:  syntax error, unexpected 'margin' (T_STRING) in /home/techmhco/public_html/mpdf_6/mpdf_index.php on line 78
+[18-Jul-2019 15:33:29 Asia/Kolkata] PHP Parse error:  syntax error, unexpected 'margin' (T_STRING) in /home/techmhco/public_html/mpdf_6/mpdf_index.php on line 78
+[18-Jul-2019 15:34:09 Asia/Kolkata] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/techmhco/public_html/mpdf_6/mpdf_index.php:223) in /home/techmhco/public_html/mpdf_6/vendor/mpdf/mpdf/mpdf.php on line 9420
+[18-Jul-2019 15:34:09 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'MpdfException' with message 'Some data has already been output to browser, can't send PDF file' in /home/techmhco/public_html/mpdf_6/vendor/mpdf/mpdf/mpdf.php:9422
+Stack trace:
+#0 /home/techmhco/public_html/mpdf_6/mpdf_index.php(228): mPDF->Output('mpdf.pdf', 'D')
+#1 {main}
+  thrown in /home/techmhco/public_html/mpdf_6/vendor/mpdf/mpdf/mpdf.php on line 9422
+[20-Jul-2019 10:29:54 Asia/Kolkata] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/techmhco/public_html/mpdf_6/mpdf_index.php:223) in /home/techmhco/public_html/mpdf_6/vendor/mpdf/mpdf/mpdf.php on line 9420
+[20-Jul-2019 10:29:54 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'MpdfException' with message 'Some data has already been output to browser, can't send PDF file' in /home/techmhco/public_html/mpdf_6/vendor/mpdf/mpdf/mpdf.php:9422
+Stack trace:
+#0 /home/techmhco/public_html/mpdf_6/mpdf_index.php(228): mPDF->Output('mpdf.pdf', 'D')
+#1 {main}
+  thrown in /home/techmhco/public_html/mpdf_6/vendor/mpdf/mpdf/mpdf.php on line 9422
+[20-Jul-2019 10:33:57 Asia/Kolkata] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/techmhco/public_html/mpdf_6/mpdf_index.php:153) in /home/techmhco/public_html/mpdf_6/vendor/mpdf/mpdf/mpdf.php on line 9420
+[20-Jul-2019 10:33:57 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'MpdfException' with message 'Some data has already been output to browser, can't send PDF file' in /home/techmhco/public_html/mpdf_6/vendor/mpdf/mpdf/mpdf.php:9422
+Stack trace:
+#0 /home/techmhco/public_html/mpdf_6/mpdf_index.php(158): mPDF->Output('mpdf.pdf', 'D')
+#1 {main}
+  thrown in /home/techmhco/public_html/mpdf_6/vendor/mpdf/mpdf/mpdf.php on line 9422
+[20-Jul-2019 10:43:19 Asia/Kolkata] PHP Notice:  Undefined variable: data in /home/techmhco/public_html/mpdf_6/mpdf_index.php on line 75
+[20-Jul-2019 10:43:37 Asia/Kolkata] PHP Notice:  Undefined variable: data in /home/techmhco/public_html/mpdf_6/mpdf_index.php on line 75
+[20-Jul-2019 10:43:52 Asia/Kolkata] PHP Notice:  Undefined variable: data in /home/techmhco/public_html/mpdf_6/mpdf_index.php on line 75
+[20-Jul-2019 10:44:27 Asia/Kolkata] PHP Notice:  Undefined variable: data in /home/techmhco/public_html/mpdf_6/mpdf_index.php on line 75
+[20-Jul-2019 10:44:37 Asia/Kolkata] PHP Notice:  Undefined variable: data in /home/techmhco/public_html/mpdf_6/mpdf_index.php on line 75
+[20-Jul-2019 10:44:38 Asia/Kolkata] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/techmhco/public_html/mpdf_6/mpdf_index.php:80) in /home/techmhco/public_html/mpdf_6/vendor/mpdf/mpdf/mpdf.php on line 9420
+[20-Jul-2019 10:44:38 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'MpdfException' with message 'Some data has already been output to browser, can't send PDF file' in /home/techmhco/public_html/mpdf_6/vendor/mpdf/mpdf/mpdf.php:9422
+Stack trace:
+#0 /home/techmhco/public_html/mpdf_6/mpdf_index.php(85): mPDF->Output('mpdf.pdf', 'D')
+#1 {main}
+  thrown in /home/techmhco/public_html/mpdf_6/vendor/mpdf/mpdf/mpdf.php on line 9422
+[20-Jul-2019 10:44:53 Asia/Kolkata] PHP Notice:  Undefined variable: data in /home/techmhco/public_html/mpdf_6/mpdf_index.php on line 75
+[20-Jul-2019 10:44:53 Asia/Kolkata] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/techmhco/public_html/mpdf_6/mpdf_index.php:80) in /home/techmhco/public_html/mpdf_6/vendor/mpdf/mpdf/mpdf.php on line 9420
+[20-Jul-2019 10:44:53 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'MpdfException' with message 'Some data has already been output to browser, can't send PDF file' in /home/techmhco/public_html/mpdf_6/vendor/mpdf/mpdf/mpdf.php:9422
+Stack trace:
+#0 /home/techmhco/public_html/mpdf_6/mpdf_index.php(85): mPDF->Output('mpdf.pdf', 'D')
+#1 {main}
+  thrown in /home/techmhco/public_html/mpdf_6/vendor/mpdf/mpdf/mpdf.php on line 9422
+[20-Jul-2019 10:45:03 Asia/Kolkata] PHP Notice:  Undefined variable: data in /home/techmhco/public_html/mpdf_6/mpdf_index.php on line 75
+[20-Jul-2019 10:45:04 Asia/Kolkata] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/techmhco/public_html/mpdf_6/mpdf_index.php:80) in /home/techmhco/public_html/mpdf_6/vendor/mpdf/mpdf/mpdf.php on line 9420
+[20-Jul-2019 10:45:04 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'MpdfException' with message 'Some data has already been output to browser, can't send PDF file' in /home/techmhco/public_html/mpdf_6/vendor/mpdf/mpdf/mpdf.php:9422
+Stack trace:
+#0 /home/techmhco/public_html/mpdf_6/mpdf_index.php(85): mPDF->Output('mpdf.pdf', 'D')
+#1 {main}
+  thrown in /home/techmhco/public_html/mpdf_6/vendor/mpdf/mpdf/mpdf.php on line 9422
+[20-Jul-2019 10:45:15 Asia/Kolkata] PHP Notice:  Undefined variable: data in /home/techmhco/public_html/mpdf_6/mpdf_index.php on line 75
+[20-Jul-2019 10:45:15 Asia/Kolkata] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/techmhco/public_html/mpdf_6/mpdf_index.php:80) in /home/techmhco/public_html/mpdf_6/vendor/mpdf/mpdf/mpdf.php on line 9420
+[20-Jul-2019 10:45:15 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'MpdfException' with message 'Some data has already been output to browser, can't send PDF file' in /home/techmhco/public_html/mpdf_6/vendor/mpdf/mpdf/mpdf.php:9422
+Stack trace:
+#0 /home/techmhco/public_html/mpdf_6/mpdf_index.php(85): mPDF->Output('mpdf.pdf', 'D')
+#1 {main}
+  thrown in /home/techmhco/public_html/mpdf_6/vendor/mpdf/mpdf/mpdf.php on line 9422
+[20-Jul-2019 10:45:25 Asia/Kolkata] PHP Notice:  Undefined variable: data in /home/techmhco/public_html/mpdf_6/mpdf_index.php on line 75
+[20-Jul-2019 10:45:25 Asia/Kolkata] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/techmhco/public_html/mpdf_6/mpdf_index.php:80) in /home/techmhco/public_html/mpdf_6/vendor/mpdf/mpdf/mpdf.php on line 9420
+[20-Jul-2019 10:45:25 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'MpdfException' with message 'Some data has already been output to browser, can't send PDF file' in /home/techmhco/public_html/mpdf_6/vendor/mpdf/mpdf/mpdf.php:9422
+Stack trace:
+#0 /home/techmhco/public_html/mpdf_6/mpdf_index.php(85): mPDF->Output('mpdf.pdf', 'D')
+#1 {main}
+  thrown in /home/techmhco/public_html/mpdf_6/vendor/mpdf/mpdf/mpdf.php on line 9422
+[20-Jul-2019 10:45:33 Asia/Kolkata] PHP Notice:  Undefined variable: data in /home/techmhco/public_html/mpdf_6/mpdf_index.php on line 75
+[20-Jul-2019 10:45:56 Asia/Kolkata] PHP Notice:  Undefined variable: data in /home/techmhco/public_html/mpdf_6/mpdf_index.php on line 75
+[20-Jul-2019 10:45:57 Asia/Kolkata] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/techmhco/public_html/mpdf_6/mpdf_index.php:80) in /home/techmhco/public_html/mpdf_6/vendor/mpdf/mpdf/mpdf.php on line 9420
+[20-Jul-2019 10:45:57 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'MpdfException' with message 'Some data has already been output to browser, can't send PDF file' in /home/techmhco/public_html/mpdf_6/vendor/mpdf/mpdf/mpdf.php:9422
+Stack trace:
+#0 /home/techmhco/public_html/mpdf_6/mpdf_index.php(85): mPDF->Output('mpdf.pdf', 'D')
+#1 {main}
+  thrown in /home/techmhco/public_html/mpdf_6/vendor/mpdf/mpdf/mpdf.php on line 9422
+[20-Jul-2019 10:55:40 Asia/Kolkata] PHP Notice:  Undefined variable: data in /home/techmhco/public_html/mpdf_6/mpdf_index.php on line 75
+[20-Jul-2019 10:55:41 Asia/Kolkata] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/techmhco/public_html/mpdf_6/mpdf_index.php:80) in /home/techmhco/public_html/mpdf_6/vendor/mpdf/mpdf/mpdf.php on line 9420
+[20-Jul-2019 10:55:41 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'MpdfException' with message 'Some data has already been output to browser, can't send PDF file' in /home/techmhco/public_html/mpdf_6/vendor/mpdf/mpdf/mpdf.php:9422
+Stack trace:
+#0 /home/techmhco/public_html/mpdf_6/mpdf_index.php(85): mPDF->Output('mpdf.pdf', 'D')
+#1 {main}
+  thrown in /home/techmhco/public_html/mpdf_6/vendor/mpdf/mpdf/mpdf.php on line 9422
+[20-Jul-2019 10:55:53 Asia/Kolkata] PHP Notice:  Undefined variable: data in /home/techmhco/public_html/mpdf_6/mpdf_index.php on line 75
+[28-Oct-2023 12:34:42 Asia/Kolkata] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/techmhco/public_html/mpdf_6/vendor/mpdf/mpdf/mpdf.php on line 18029
+[28-Oct-2023 12:35:07 Asia/Kolkata] PHP Notice:  Undefined variable: data in /home/techmhco/public_html/mpdf_6/mpdf_index.php on line 75
